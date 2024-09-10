@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br><br><br><br><br><br><br><br>
+    <center>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="3" class="result"> </th>
+                    <th onclick="handleClear()">C</th>
+                </tr>
+
+                <tr>
+                    <td onclick="handleNum(1)">1</td>
+                    <td onclick="handleNum(2)">2</td>
+                    <td onclick="handleNum(3)">3</td>
+                    <td onclick="handleNum('/')">/</td>
+                </tr>
+
+                <tr>
+                    <td onclick="handleNum(4)">4</td>
+                    <td onclick="handleNum(5)">5</td>
+                    <td onclick="handleNum(6)">6</td>
+                    <td onclick="handleNum('*')">*</td>
+                </tr>
+
+                <tr>
+                    <td onclick="handleNum(7)">7</td>
+                    <td onclick="handleNum(8)">8</td>
+                    <td onclick="handleNum(9)">9</td>
+                    <td onclick="handleNum('-')">-</td>
+                </tr>
+
+                <tr>
+                    <td onclick="handleNum(0)">0</td>
+                    <td onclick="handleNum('.')">.</td>
+                    <td onclick="handleEqual()">=</td>
+                    <td onclick="handleNum('+')">+</td>
+                </tr>
+            </table>
+        </div>
+
+    </center>
+    <script src="script.js"></script>
+</body>
+
+</html>
