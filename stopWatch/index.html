@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(228, 228, 223);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="text-center m-11 text-6xl">Stop Watch</h1>
+    <center>
+
+        <div class="container m-9 ">
+            <h2 class="timer">
+                <button class="border w-1/2 bg-slate-500 text-white h-16 text-center rounded-md  ">
+                    <span class="hours text-2xl">00</span>:
+                    <span class="minutes text-2xl">00</span>:
+                    <span class="sec text-2xl">00</span>
+                </button>
+            </h2>
+        </div>
+
+
+        <div class="btn m-2">
+            <button class="w-28 h-10 text-white bg-slate-700 text-xl text-center border rounded-md "
+                onclick="handleClick()">Start</button>
+            <button class="w-28 h-10 text-white bg-slate-700 text-xl text-center border rounded-md  "
+                onclick="handleStop()">Stop</button>
+            <button class="w-28 h-10 text-white bg-slate-700 text-xl text-center border rounded-md  "
+                onclick="handleClear()">Reset</button>
+
+        </div>
+    </center>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
